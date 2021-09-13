@@ -14,5 +14,8 @@ public class DelSignoreClass {
             studentNames.add(userResponse);
         }
         System.out.println("All of your students in the class are below");
+        for (var studentName : studentNames){
+            System.out.println(studentName);
+        }
     }
 }
